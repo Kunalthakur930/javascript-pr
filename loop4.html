@@ -1,0 +1,304 @@
+<script>
+          //---------------------------For loop-----------------------------
+          // loop = Loop is itrate or repeat a block of code and a block of statement the we use loop
+
+          //          For loop syntax
+          //          for(initialization;condition;increment or decrement)
+          //           {   
+          //                    statement;
+          //              } 
+
+//Que.1    WAP to print hello in 10 times
+          // for (var i = 1; i <= 10; i++) {
+          //           document.write("Hello", "<br>");
+          //           document.write(i, "<br>");
+
+          // }
+
+//Que.2    WAP to print natural number from 1 to 50.
+          // for (var i = 1; i <= 50; i++)
+          // {
+          //           document.write(i, "<br>");
+          // }
+
+//Que.3    WAP to print even no from 1 to 50
+          // for (var i = 2; i <= 50; i+=2)
+          // {
+          //           document.write(i, "<br>");
+          // }
+
+//Que.4   WAP to print odd no from 1 to 50
+          // for (var i = 1; i <= 50; i+=2)
+          // {
+          //           document.write(i, "<br>");
+          // }
+
+//Que.5   WAP to print table of 2
+          // for (var i = 2; i <= 20; i+=2)
+          // {
+          //           document.write(i, "<br>");
+          // }
+
+//Que.6   WAP to print sum of natural no from 1 to 50
+          // sum=0;
+          // for (var i = 1; i <= 50; i++)
+          // {
+          //           sum=sum+i;
+          // }
+          // document.write(sum, "<br>");
+
+
+//-----------------------------ASSIGNMENT-LOOP----------------------------
+
+//Que.1   WAP to print Sum of even no and sum of odd no from 1 to 50
+          // sum=0;
+          // for (var i = 2; i <= 50; i+=2)
+          // {
+          //           sum=sum+i;
+          // }
+          // document.write("Sum of even no =",sum, "<br>");
+          
+          // sum=0;
+          // for (var i = 1; i <= 50; i+=2)
+          // {
+          //           sum=sum+i;
+          // }
+          // document.write("Sum of odd no =",sum, "<br>");
+
+//Que.2   WAP to print table of 2 to 5.
+          // for(var i=2;i<=5;i++){
+          //           for(var j=1;j<=10;j++){
+          //                     document.write(i*j,"<br>");
+          //           }
+          //           document.write("<br>");
+          // }
+
+//Que.2   WAP to print table of 5 to 2.
+          // for(var i=5;i>=2;i--){
+          //           for(var j=1;j<=10;j++){
+          //                     document.write(i*j,"<br>");
+          //           }
+          //           document.write("<br>");
+          // }
+//-----------------------------------While-Loop-------------------------------------
+
+//Syntax
+          //initialization;
+          // while(condition)
+          // {
+          //           statement;
+          //           increment/decrement;
+          // }
+
+//Que.1   WAP to print natural no 1 to 50.
+          // var i=1;
+          // while(i<=50){
+          //           document.write(i,"<br>");
+          //           i++;
+          // }
+
+//Que.2   WAP to print hello in 10 times
+          // var i=1;
+          // while(i<=10){
+          //           document.write("Hello","<br>");
+          //           i++;
+          // }
+
+//Que.3   WAP to print even number from 1 to 50.
+          // var i=2;
+          // while(i<=50){
+          //           document.write(i,"<br>");
+          //           i+=2;
+          // }
+
+//Que.4   WAP to print odd no from 1 to 50
+          // var i=1;
+          // while(i<=50){
+          //           document.write(i,"<br>");
+          //           i+=2;
+          // }
+
+//Que.5    WAP to print table of 2
+          // var i=2;
+          // while(i<=20){
+          //           document.write(i,"<br>");
+          //           i+=2;
+          // }
+
+//Que.6   WAP to print sum of natural no from 1 to 50
+          // sum=0;
+          // var i=1;
+          // while(i<=50){
+          //           sum=sum+i;
+          //           i++;
+          // }
+          // document.write(sum,"<br>");
+
+//Que.7   WAP to print sum of even no and odd no.
+          // sum=0;
+          // var i=2;
+          // while(i<=50){
+          //           sum=sum+i;
+          //           i+=2;
+          // }
+          // document.write("Sum of even no is =",sum,"<br>");
+
+          // document.write("<br>");
+
+          // sum=0;
+          // var i=1;
+          // while(i<=50){
+          //           sum=sum+i;
+          //           i+=2;
+          // }
+          // document.write("Sum of odd no is =",sum,"<br>");
+
+//Que.8   WAP to print table 2 to 5
+          // var i = 2;
+          // while(i<=5){
+          //           j=1;
+          //           while( j<=10){
+          //                     document.write(i*j,"<br>");
+          //                     j++;
+          //           }
+          //           i++
+          //           document.write("<br>");
+          // }
+
+//Que.9   WAP to print table 5 to 2
+          // var i = 5;
+          // while(i>=2){
+          //           j=1;
+          //           while( j<=10){
+          //                     document.write(i*j,"<br>");
+          //                     j++;
+          //           }
+          //           i--;
+          //           document.write("<br>");
+          // }
+
+//------------------------------------Wap to Count a digit-------------------------------
+
+          // i=prompt("enter the number");
+          // count = 0;
+          // while(i>0){
+          //           i=Math.floor(i/10);
+          //           count=count+1;
+          // }
+          // document.write(count,"<br>");
+
+
+//----------------------------------Reverse of a number----------------------------
+
+          // i=prompt("enter the number");
+          // rev=0;
+          // while(i>0){
+          //           r=i%10;
+          //           rev=rev*10+r;
+          //           i=Math.floor(i/10);
+
+          // }
+          // document.write(rev);
+
+
+//---------------------------------- Number is palindrome or not---------------------------
+
+          // i=prompt("enter the number");
+          // temp=i;
+          // rev=0;
+          // while(i>0){
+          //           r=i%10;
+          //           rev=rev*10+r;
+          //           i=Math.floor(i/10);
+          // }
+          // if(temp==rev){
+          //           document.write("no is palindrome");
+          // }
+          // else{
+          //           document.write("no is not palindrome");    
+          // }
+
+//----------------------------------Armstrong-----------------------
+
+          // i=prompt("enter any number");
+          // temp=i;
+          // arm=0;
+          // while(i>0){
+          //           r=i%10;
+          //           arm=arm+r*r*r;
+          //           i=Math.floor(i/10);
+          // }
+          // if(temp==arm){
+          //           document.write("no is armstrong");
+          // }
+          // else{
+          //           document.write("no is not armstrong");
+          // }
+
+//--------------------------------Fabiano Series--------------------------
+
+          // a=0;
+          // b=1;
+          // temp=0;
+          // var i=0;
+          // for(i=0;i<50;i++){
+          //           temp=a+b;
+          //           document.write(temp,"<br>");
+          //           a=b;
+          //           b=temp;
+          // }
+
+//---------------------------------Prime---------------------------------
+
+          // n=prompt("enter the no");
+          // flag=0;
+          // for(var i=2;i<n;i++){
+          //           if(n%i==0){
+          //                     flag=1;
+          //                     break;
+          //           }
+          // }
+          // if(flag==0){
+          //           document.write("no is prime");
+          // }
+          // else{
+          //           document.write("no is not prime");
+          // }
+
+//--------------------------Perfect--------------------------
+          // n=prompt("enter the no");
+          // sum=0;
+          // for(var i=1;i<n;i++){
+          //           if(n%i==0){
+          //           sum=sum+i;
+                              
+          //           }
+          // }
+          // if(n==sum){
+          //           document.write("no is perfect");
+          // }
+          // else{
+          //           document.write("no is not perfect");
+          // }
+
+//-------------------------------Do while-----------------------
+          // syntax:-
+          //           initialization
+          //           do{
+          //                     statement 
+          //                     incri/decri
+          //           }
+          //           while{condition}
+
+//Que.    Wap to print natural no 1 to 50
+          // var i=0;
+          // do{
+          //           document.write(i,"<br>")
+          //           i++
+                    
+          // }
+          // while(i<=50)
+
+         
+
+</script>
