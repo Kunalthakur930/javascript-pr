@@ -1,0 +1,890 @@
+<script>
+// const hi=1
+// document.write(hi)
+// Q.1 wap to check user is eligible for vote or not??
+// const user=Number(prompt("Enter user age"))
+// if (age>=18) {
+//         console.log("Eligible to vote")
+// }
+// else{
+//         console.log("Not eligible to vote")
+// }
+
+
+// Q.2.wap to check no. is +ve or -ve??
+// const num=Number(prompt("Enter the number"))
+// if (num%2===0) {
+//         console.log("Number is positive")
+// }
+// else{
+//         console.log("Number is negative")
+// }
+
+
+//  3.wap to check no. is even or not??
+// const num=Number(prompt("Enter the number"))
+// if (num%2===0) {
+//         console.log("Number is even")
+// }
+// else{
+//         console.log("Number is not even")
+// }
+
+
+//  4.compare a no with 17 if no. is gretre than 17 then return absolute diff
+//  if not return square of diff??
+// const num=Number(prompt("Ente  the number"))
+// const absolute_diff=num-17
+// if (num>17) {
+//         console.log("Greater than 17","And difference is ",absolute_diff)
+// }
+// else{
+//         console.log("Number is less than 17","And difference of square is",absolute_diff*2)
+// }
+
+
+//  5.comapre a 3 no. if all are equal then return
+ //sum of all if not than return sum and thrice of all??
+// const num1=Number(prompt("Enter the num1"))
+// const num2=Number(prompt("Enter the num2"))
+// const num3=Number(prompt("Enter the num3"))
+// const sum=num1+num2+num3
+// if (num1===num2 && num2===num3) {
+//         console.log("All are equal And sum is =",sum,)
+// }
+// else{
+//         console.log("Not equal and thrice of all is =",sum*3)
+// }
+
+
+//  6.comapre a two no. and find gretest b/w them?/
+// const num1=Number("Enter no 1")
+// const num2=Number("Enter no 2")
+// if (num1>num2) {
+//         console.log("Number1 is greater")
+// }
+// else{
+//         console.log("Number2 is greater")
+// }
+
+
+//  7.take values  of length and breath of a rectangle from user and check
+// if it is square or not?/
+// const length=Number(prompt("Enter the length"))
+// const breadth=Number(prompt("Enter the breadth"))
+// if (length===breadth) {
+//         console.log("Yes it is square")
+// }
+// else{
+//         console.log("rectangle")
+// }
+
+
+//  8.a company decided to give a bonus of 5% to
+// employee if the year of service is more than 5  years ask user for
+// their salary and year of service and print the net bonus??
+// const salary=Number(prompt("Enter your salary"))
+// const yos=String(prompt("Enter the year of service"))
+// const bonus=salary*0.05
+// if (yos>5) {
+//         console.log("Eligible for bonus and bonus is =",bonus)
+// }
+// else{
+//         console.log("Not eligible for bonus because yos is not more than 5 years")
+//        
+// }
+
+
+// 9.a student will not be allowed to sit in exam her
+// attendance is less than 75% take following input from user number of
+// classes held
+// ,number of clasees attend is student to sit in exam or not??
+// const total_classes=Number(prompt("Enter total classes"))
+// const classes_attend=Number(prompt("Enter classes attend"))
+// const attendance_formula=(classes_attend/total_classes)*100
+// if (classes_attend<75) {
+//         console.log("Not eligible")
+// }
+// else{
+//         console.log("Eligible to sit")
+// }
+
+
+// //if_elif_else example
+// 10.Traffic light
+// Write a python program that will check for the following conditions:
+// * If the light is green – Car is allowed to go
+// * If the light is yellow – Car has to wait
+// * If the light is red – Car has to stop
+// * Other signal – unrecognized signal. Example black, blue, etc…
+// const light=String(prompt("Enter the current traffic light"))
+// if (light==="green") {
+//         console.log("Car is allowed to go")
+// }
+// else if(light==="yellow"){
+//         console.log("Car has to wait")
+// }
+// else if(light==="red"){
+//         console.log("Car has to stop")
+// }
+// else{
+//         console.log("Unrecognized signal")
+// }
+
+
+// 11.Write a program to trace your subject mark. Your program should fulfill the following conditions:
+// 1. If the subject mark is below 0 and above 100, print “error: mark should be between 0 and 100 only”
+// 2. Students will fail in the subject if their mark is below 50.
+// 3. Students will pass in the subject if they score 50 and above.
+//     1. If subject mark is between 50 and 60, grade student as good.
+//     2. If subject mark is between 60 and 80, grade student as very good.
+//     3. If subject mark is between 80 and 100, grade student as outstanding.
+// Make sure to print their mark in every statement to prove that the condition is fulfilled. Moreover, name, class, and section should be also displayed along with the marks and their grade.
+// const std_name=String(prompt("Enter student name"))
+// const std_class_section=String(prompt("Enter student class and section"))
+// const marks=Number(prompt("Enter student marks"))
+// if (marks<50) {
+//         console.log("Student name =",std_name,"Class and section =",std_class_section,"Result is=","Fail")
+// }
+// else if (marks>=50 && marks<=60) {
+//         console.log("Student name =",std_name,"Class and section =",std_class_section,"Result is=","grade student as good")
+// }
+// else if(marks>60 && marks<=80){
+//         console.log("Student name =",std_name,"Class and section =",std_class_section,"Result is=","grade student as very good")
+// }
+// else if(marks>80 && marks<=100){
+//         console.log("Student name =",std_name,"Class and section =",std_class_section,"Result is=","grade student as outstanding")
+// }
+// else{
+//         console.log("Student name =",std_name,"Class and section =",std_class_section,"Result is=","“error: mark should be between 0 and 100 only")
+// }
+
+
+// 12.Write a  program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
+// for (let i = 1500; i <= 2700; i++) {
+//         if (i%7===0 && i%5===0) {
+//                 console.log(i," is divisible by 7 and multiple of 5","<br>")
+//         }
+// }               
+
+
+// 13.Write a Python program to count the number of even and odd numbers in a series of numbers
+// Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+// findLargest()` finds the largest between two number by using “>” and “=” operator in JavaScript.
+// 1. Print num1 is the largest if num1>num2.
+// 2. Print num2 is the largest if num1<num2.
+// 3. Else print num1 and num2 are equal when num1==num2.
+// const arr=[1,2,3,4,5,6,7,8,9]
+// let even_count=0
+// let odd_count=0
+// for (let i=0;i<arr.length;i++){
+//         if (arr[i]%2==0) {
+                
+//                 even_count++
+                
+//         }
+//         else{
+
+//                 odd_count++
+//         }
+        
+// }
+// if (odd_count>even_count) {
+//         console.log("Odd numbers are more =",odd_count)
+// }
+// else{
+//         console.log("Odd numbers are more =",even_count)
+
+// }
+
+
+// 14.Check if a triangle is equilateral, scalene, or isosceles
+// const side1=Number(prompt("Enter side 1"))
+// const side2=Number(prompt("Enter side 2"))
+// const side3=Number(prompt("Enter side 3"))
+// if (side1===side2 ) {
+//         console.log("isosceles triangle")
+// }
+// else if(side1!==side2 && side2!==side3){
+//         console.log("Scalene triangle")
+// }
+// else{
+//         console.log("Equilateral triangle")
+// }
+
+// 15.Find check if a year is leap year or not
+
+
+// 16.findGrade() to find the grade of the student based on the input marks.
+// 1. Print “S grade” if marks is between 90 and 100.
+// 2. Print “A grade” if marks is between 80 and 90.
+// 3. Print “B grade” if marks is between 70 and 80.
+// 4. Print “C grade” if marks is between 60 and 70.
+// 5. Print “D grade” if marks is between 50 and 60.
+// 6. Print “E grade” if marks is between 40 and 50.
+// 7. Print “Student has failed” if marks is between 0 and 40.
+// 8. Else print “Invalid marks”.
+
+// const marks=Number(prompt("Enter the number"))
+// if (marks>=90 && marks<=100) {
+//         console.log("Grade is=S")      
+// }
+// else if(marks>=80 && marks<90){
+//         console.log("Grade is=A")
+// }
+// else if(marks>=70 && marks<80){
+// console.log("Grade is=B")
+// }
+// else if(marks>=60 && marks<70){
+// console.log("Grade is=C")
+// }
+// else if(marks>=50 && marks<60){
+// console.log("Grade is=D")
+// }
+// else if(marks>=40 && marks<50){
+// console.log("Grade is=E")
+// }
+
+
+
+// 17.Write a JavaScript program that displays the largest integer among two integers.
+
+// const int1=Number(prompt("Enter Integer 1"))
+// const int2=Number(prompt("Enter Integer 2"))
+// if (int1>int2) {
+//         console.log("Integer 2 is greater",int1)
+// }
+// else{
+//         console.log("Integer 2 is greater",int2)
+// }
+
+
+// 19. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the results.
+
+// Sample numbers : 0, -1, 4
+// Output : 4, 0, -1
+// const num1=Number(prompt("Enter number1"))
+// const num2=Number(prompt("Enter number2"))
+// const num3=Number(prompt("Enter number3"))
+// const result=0;
+// if(num1>=num2 && num1>=num3){
+//   if (num2>=num3) {
+//     result=document.write(num1,num2,num3)
+//   }
+//   else{
+//         result=document.write(num1,num3,num2)
+
+//   }
+// }
+// if(num2>=num1 && num2>=num3){
+//   if (num1>=num3) {
+//     result=document.write(num2,num1,num3)
+//   }
+//   else{
+//         result=document.write(num2,num3,num1)
+
+//   }
+// }
+// if(num3>=num1 && num3>=num2){
+//   if (num1>=num2) {
+//     result=document.write(num3,num1,num2)
+//   }
+//   else{
+//         result=document.write(num3,num2,num1)
+
+//   }
+// }
+
+
+// 20. Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the results.
+// Sample numbers : -5, -2, -6, 0, -1
+
+// const num1=Number(prompt("Enter the number1"))
+// const num2=Number(prompt("Enter the number2"))
+// const num3=Number(prompt("Enter the number3"))
+// const num4=Number(prompt("Enter the number4"))
+// const num5=Number(prompt("Enter the number5"))
+// if (num1>num2 &&num1> num3 &&num1> num4 &&num1> num5) {
+//   document.write(num1)
+// }
+// else if (num2>num1 &&num2> num3 &&num2> num4 &&num2> num5) {
+//   document.write(num2)
+// }
+// else if (num3>num2 &&num3> num1 &&num3> num4 &&num3> num5) {
+//   document.write(num3)
+// }
+// else if (num4>num2 &&num4> num3 &&num4> num1 &&num4> num5) {
+//   document.write(num4)
+// }
+// else if (num5>num2 &&num5> num3 &&num5> num4 &&num5> num1) {
+//   document.write(num5)
+// }
+
+// 21. Write a JavaScript for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen.
+// Sample Output :
+// "0 is even"
+// "1 is odd"
+// "2 is even"
+// for (let i=0;i<=15;i++){
+//   if (i%2===0) {
+//     document.write(i,"Even","<br>")
+//   }
+//   else{
+//     document.write(i,"Odd","<br>")
+//   }
+// }
+
+
+// 23. Write a JavaScript program to compute the greatest common divisor (GCD) of two positive integers.
+// let num1=Number(prompt("Enter the number 1"))
+// let num2=Number(prompt("Enter the number 1"))
+// let gcd=1
+// for (let i=1;i<=num1 && i<=num2;i++){
+//   if (num1%i==0 && num2%i==0) {
+//     gcd=i
+//   }
+  
+// }
+// document.write("GCD is =",gcd)
+
+
+// 24. Write a JavaScript program to sum 3 and 5 multiples under 1000.
+// let sum=0;
+// for (let i=3;i<=100;i++){
+//   if (i%3==0 && i%5==0) {
+//     sum=sum+1
+//   }
+// }
+// document.write(sum)
+
+
+//  25.Write a program that will allow someone to guess a four digit pin exactly 4
+//  times. If the user guesses the number correctly. It prints “That was
+//  correct!” Otherwise it will print “Sorry that was wrong.” Program stops after the 4th attempt of if they got it right.
+
+// const correctpin=1234
+// let attempts=0
+// while(attempts<4){
+//   let userpin=Number(prompt("Enter your pin"))
+//   if (userpin===correctpin) {
+//     document.write("Correct pin")
+//     break;
+//   }
+//   else{
+//     document.write("Wrong pin")
+//   }
+//   attempts ++
+// }
+
+
+// 26..Get the sum of two arrays…actually the sum of all their elements.
+// P.S. Each array includes only integer numbers. Output is a number too.
+
+// const arr1=[1,2,3,4]
+// const arr2=[5,6,7,9]
+// let sum1=0;
+// let sum2=0;
+// for(let i=0;i<arr1.length;i++){
+  
+//   sum1=sum1+arr1[i]
+// }
+// for(let j=0;j<arr2.length;j++){
+  
+//   sum2=sum2+arr2[j]
+// }
+// document.write ( sum=sum1+sum2)
+
+
+// 27. Print the ODD numbers from 7 to 31
+
+// for (let i=1;i<=31;i++){
+//   if (i%2===1) {
+    
+//     document.write(i,"<br>")
+//   }
+// }
+
+
+// 28.Calculate the sum of all the numbers in the following array
+
+// var numbersArray = [1,13,22,123,49]
+//  const numbersArray = [7,13,22,123,49]
+//  let sum=0;
+//  for(let i=0;i<numbersArray.length;i++){
+//   sum=sum+numbersArray[i]
+//  }
+//  document.write(sum)
+
+
+// 29. prints all the elements of a 2D array using nested for loops.
+
+// const arr=[[1,2,3,],
+//            [4,5,6],
+//            [7,8,9]
+//           ]
+// for(let i=0;i<arr.length;i++){
+//   for(let j=0;j<arr[i].length;j++){
+//     document.write(arr[i][j],"<br>")
+//   }
+// }
+
+
+// 30.. Write a JS code to print Even numbers in given array
+
+// let arr=[1,2,3,4,5,6,7,8]
+// for (let i=0;i<=arr.length;i++){
+//   if (i%2===0) {
+    
+//     document.write(i,"<br>")
+//   }
+// }
+
+
+//39.Write a JS code to find duplicate values in a given array
+
+// let arr=[1,2,3,2,4,5,3,7,8]
+// let duplicate=[]
+// for(let i=0;i<arr.length;i++){
+//   for(let j=i+1;j<arr.length;j++){
+//     if (arr[i]===arr[j] && !duplicate.includes(arr[i])) {
+//       duplicate.push(arr[i])
+//     }
+//   }
+// }
+// document.write("Duplicates values are =",duplicate)
+
+
+// 40.check no is pandriome or not?
+// let i=Number(prompt("Enter the number"))
+// temp=i
+// rev=0
+// while(i>0){
+//   r=i%10
+//   rev=rev*10+r
+//   i=Math.floor(i/10)
+// }
+// if(temp===rev){
+//   document.write("Number is palindrome")
+// }
+// else{
+//   document.write("Number is not palindrome")
+// }
+
+
+// 41.check no is Armstrong or not?
+
+// let i =Number(prompt("Enter the number"))
+// temp=i
+// arm=0
+// while(i>0){
+//   r=i%10
+//   arm=arm+r*r*r
+//   i=Math.floor(i/10)
+// }
+// if (temp===arm) {
+//   document.write("Number is armstrong")
+// }
+// else{
+//   document.write("Number is not armstrong")
+// }
+
+
+// 42.check no is perfect or not??
+
+// let n=Number(prompt("Enter the number"))
+// let sum=0
+// for(let i=0;i<n;i++){
+//   if (n%i==0) {
+//     sum=sum+i
+//   }
+// }
+// if (n==sum) {
+//   console.log("Number is perfect")
+// }
+// else{
+//   console.log("Number is not perfect")
+// }
+
+// 43.check no is prime or not??
+
+//  let n=Number(prompt("ENter the number"))
+//  flag=0
+//  for(let i=2;i<n;i++){
+//   if(n%i==0){
+//     flag=1
+//     break;
+//   }
+//  }
+//  if (flag==0) {
+//   console.log("Number is prime")
+//  }
+//  else{
+//   console.log("Number is not prime")
+//  }
+
+
+// 44.print fabinocci series??
+
+// let a=0
+// let b=1
+// let temp=0
+// for (let i=0;i<50;i++){
+//   temp=a+b;
+//   document.write(temp,"<br>")
+//   a=b;
+//   b=temp
+// }
+
+
+// 45.count a digit of a no??
+
+// let i=Number(prompt("Enter the number"))
+// let count=0
+// while(i>0){
+//   i=Math.floor(i/10)
+//   count=count+1
+
+// }
+// document.write(count)
+
+
+// 46.print reverse of a no??
+
+// let i=Number(prompt("Enter the number"))
+// rev=0;
+// while(i>0){
+//   r=i%10
+//   rev=rev*10+r
+//   i=Math.floor(i/10)
+// }
+// document.write(rev)
+
+
+// 47.print all odd elements from array??
+
+// const arr=[1,2,3,4,5,6,7,8,9,10]
+// for(let i=0;i<arr.length;i++){
+//   if (arr[i]%2==1) {
+//     document.write(arr[i],"<br>")
+//   }
+// }
+
+
+// 48.print even elements from array??
+
+// const arr=[10,11,12,13,14,15,16]
+// for(let i=0;i<arr.length;i++){
+//   if (arr[i]%2==0) {
+//     document.write(arr[i],"<br>")
+//   }
+// }
+
+// 49.print sum of odd elements from array??
+
+// const arr=[1,2,3,4,5,6,7,8,9,10]
+// let sum=0
+// for(let i=0;i<arr.length;i++){
+//   if (arr[i]%2==1) {
+//     sum=sum+arr[i]
+//   }
+// }
+// document.write("Sum of odd elements is =",sum)
+
+
+// 50.print sum of even. Elements
+// From array?/
+
+// const arr=[1,2,3,4,5,6,7,8,9,10]
+// let sum=0
+// for(let i=0;i<arr.length;i++){
+//   if (arr[i]%2==0) {
+//     sum=sum+arr[i]
+//   }
+// }
+// document.write("Sum of Even elements is =",sum)
+
+
+// 51. Write a JavaScript function to clone an array.
+
+// let arr=[1,2,3,4,5,6]
+// let clonearr=[]
+// for(let i=0;i<arr.length;i++){
+//   clonearr.push(arr[i])
+// }
+// document.write(clonearr)
+
+
+// 52.Write a JavaScript program that accepts a number as input and inserts dashes (-) between each even number. For example if you accept 025468 the output should be 0-254-6-8.
+
+// const num=prompt("Enter the number")
+// let result=""
+// for (let i=0;i<num.length;i++){
+//   result +=num[i]
+//   if (num[i]%2===0 && num[i+1]%2===0) {
+//     result = result + "-"
+//   }
+
+// }
+// document.write(result)
+
+
+// 53.Write a JavaScript program to sort the items of an array.
+
+// const arr = [4, 1, 9, 2, 6];
+// let temp;
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i + 1; j < arr.length; j++) {
+//     if (arr[i] > arr[j]) {
+//       temp = arr[i];
+//       arr[i] = arr[j];
+//       arr[j] = temp;
+//     }
+//   }
+// }
+
+// document.write(arr);
+
+// 54.Write a JavaScript program to find the most frequent item in an array.
+// const arr=[1,2,3,2,1,1,3,5]
+// let maxcount=0
+// let mostfre;
+
+// for(let i=0;i<arr.length;i++){
+//   let count=0
+//   for( let j=0;j<arr.length;j++){
+//     if(arr[i]===arr[j]){
+//       count ++
+//     }
+
+//   }
+//   if(count>maxcount){
+//     maxcount=count
+//     mostfre=arr[i]
+//   }
+// }
+// document.write("Most freq =" , mostfre)
+// document.write("MAx count =", maxcount)
+
+
+// 55.Write a JavaScript program to remove duplicate items from an array
+
+// const arr= [1,2,2,2,1,4]
+// let uniq=[];
+// for(let i=0;i<arr.length;i++){
+//   if(!uniq.includes(arr[i])){
+//     uniq.push(arr[i]);
+//   }
+// }
+// console.log(uniq);
+
+
+// 56.Write a JavaScript program to shuffle an array.
+
+// const arr=[1,2,3,4,5,6]
+// let temp;
+
+// for(let i=arr.length-1;i>0;i--){
+//   const j = Math.floor(Math.random()*(i+1))
+
+//   temp=arr[i]
+//   arr[i]=arr[j]
+//   arr[j]=temp
+// }
+// document.write(arr)
+
+
+// 57.Write a JavaScript function to find the difference between two arrays.
+
+// function arrdifference(arr1,arr2){
+//   let diff=[]
+
+//   for( let i=0;i<arr1.length;i++){
+//     let  found=false
+//     for(let j=0;j<arr2.length;j++){
+//       if (arr1[i]===arr2[j]) {
+//         found=true
+//         break
+//       }
+//     }
+//     if (found===false) {
+      
+//       diff.push(arr1[i])
+//     }
+//   }
+//   return diff
+  
+// }
+// const a=[1,2,3,4]
+// const b=[2,4,6]
+// console.log(arrdifference(a,b))
+
+
+// 58.Write a JavaScript function that merges two arrays and removes all duplicate elements.
+// Test data :
+// var array1 = [1, 2, 3];
+// var array2 = [2, 30, 1];
+
+// let arr1=[1,2,3,4,5,6,8]
+// let arr2=[1,2,5,7,8,9]
+// let newarr=arr1.concat(arr2)
+// let finalarr=[]
+
+// for(let i=0;i<newarr.length;i++){
+//   if (!finalarr.includes(newarr[i])) {
+//     finalarr.push(newarr[i])
+//   }
+// }
+// document.write(finalarr)
+
+// 59.Write a JavaScript program that takes an array of numbers and returns the third smallest number.
+
+// const arr=[2,1,4,3,7,8,6]
+// let temp;
+// for (let i=0;i<arr.length;i++){
+//   for (let j=i+1;j<arr.length;j++){
+//     if(arr[i]>arr[j]){
+//       temp=arr[i]
+//       arr[i]=arr[j]
+//       arr[j]=temp
+//     }
+//   }
+// }
+// document.write(arr[2])
+
+
+// 60.Write a JavaScript function to split a string and convert it into an array of words.
+
+// function strtoarr(str){
+//   return str.split(" ")
+// }
+// const text = "I am going to college"
+// console.log(strtoarr(text)) // use console only
+
+
+// 61.Write a JavaScript function to capitalize the first letter of a string.
+
+// function capitalizefirstltr(str){
+
+//    return str.charAt(0).toUpperCase()+str.slice(1)
+// }
+// const text="thakur"
+// console.log(capitalizefirstltr(text))
+
+
+// 62.Write a JavaScript function to capitalize the first letter of each word in a string.
+
+// function capitalizeeachword(str){
+//   let words=str.split(" ") //breaks string to arr of words = where is space
+//   let result=[]
+//   for(let i=0;i<words.length;i++){
+//     result.push(words[i].charAt(0).toUpperCase()+words[i].slice(1))
+    
+//   }
+//   return result.join(" ")
+// }
+// const text="i am learning java"
+// console.log(capitalizeeachword(text))
+
+
+// 63.Write a JavaScript function that takes a string with both lowercase and upper case letters as a parameter. It converts upper case letters to lower case, and lower case letters to upper case.
+
+// function changecase(str){
+//   let result=""
+//   for (let i=0;i<str.length;i++){
+//     if (str[i]===str[i].toUpperCase()) {
+//       result=result+str[i].toLowerCase()
+//     }
+//     else{
+//       result=result+str[i].toUpperCase()
+//     }
+//   }
+//   return result
+// }
+// const text="KuNaL tHaKuR"
+// console.log(changecase(text))
+
+
+//  64.Write a JavaScript function to convert a string into camel case. : TheButtonToConvertToCamelCase
+
+// function camelcase(str){
+//   let words=str.split(" ")
+//   let result=words[0].toLowerCase()
+
+//   for (let i=1;i<words.length;i++){
+//     result=result+words[i].charAt(0).toUpperCase()+words[i].slice(1).toLowerCase()
+//   }
+//   return result
+// }
+// const text = "Hello world JAVAscript "
+// console.log(camelcase(text))
+
+
+// 65.Write a JavaScript function to count substrings in a string.
+// Test Data :
+// console.log(count("The quick brown fox jumps over the lazy dog", 'the'));
+// Output :
+// 2
+// console.log(count("The quick brown fox jumps over the lazy dog", 'fox',false));
+// Output :
+// 1
+
+// function count(str, sub) {
+//   let count = 0;
+//   let pos = 0;
+
+//   str = str.toLowerCase();
+//   sub = sub.toLowerCase();
+
+//   while ((pos = str.indexOf(sub, pos)) !== -1) {
+//     count++;
+//     pos = pos + sub.length;
+//   }
+
+//   return count;
+// }
+
+// console.log(count("The quick brown fox jumps over the lazy dog", "the"));
+
+
+
+// 66.Write a JavaScript function to uncapitalize the first character of a string.
+
+// function uncapitalizefirstltr(str){
+
+//    return str.charAt(0).toLowerCase()+str.slice(1)
+// }
+// const text="Thakur"
+// console.log(uncapitalizefirstltr(text))
+
+
+// 67.Write a JavaScript function to uncapitalize the first letter of each word of a string.
+
+// function uncapitalizefirstltr(str){
+//   let words=str.slice(" ")
+//   let result=[]
+//   for( let i=0;i<str.length;i++){
+//     result.push(words[i].charAt(0).toLowerCase()+words[i].slice(1))
+
+//   }
+//   return result.join("")
+// }
+// const text="I Am Going Home Today"
+// console.log(uncapitalizefirstltr(text))
+
+
+// 68.Write a JavaScript function to reverse words in a given string
+
+// function toprintreversearr(str){
+//   let words=str.split(" ")
+//   let reverse=[]
+
+//   for(let i=words.length-1;i>=0;i--){
+//     reverse.push(words[i])
+//   }
+//   return reverse.join(" ")
+// }
+// const text="i am learning javascript"
+// console.log(toprintreversearr(text))
+
+</script>
